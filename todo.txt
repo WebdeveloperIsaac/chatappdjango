@@ -1,3 +1,9 @@
-Create an app for the chat room
-create superuser
-show list of rooms
+Create an app for the chat room ✅
+Create a SignUp ✅
+Create Login and Use inBuilt authenticator✅
+create superuser✅
+Show List of Rooms validation admele ✅
+chat interface ✅
+input of chat recieve ✅
+update the DOm ✅
+upload to github ✅
