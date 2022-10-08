@@ -65,7 +65,7 @@ ASGI_APPLICATION = 'djangochat.asgi.application'
 #we can use redis or something here so once the browser gets closed the chat is destroyed
 CHANNEL_LAYERS = {
     'default': {
-        'BACKEND':'channels.layers.InMemoryChannelLayer'
+        'BACKEND': 'channels.layers.InMemoryChannelLayer'
     }
 }
 
