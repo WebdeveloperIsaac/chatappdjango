@@ -62,6 +62,13 @@ TEMPLATES = [
 WSGI_APPLICATION = 'djangochat.wsgi.application'
 ASGI_APPLICATION = 'djangochat.asgi.application'
 
+#we can use redis or something here so once the browser gets closed the chat is destroyed
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND':'channels.layers.InMemoryChannelLayer'
+    }
+}
+
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
